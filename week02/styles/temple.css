@@ -1,0 +1,42 @@
+header {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+main {
+    width: 400px;
+    margin: 0% auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+
+}
+
+/* add the ligne under the text */
+h2 {
+    border-bottom: 1px solid black;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    box-shadow: 10px 10px 35px black;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: bisque;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    font-size: large;
+}
