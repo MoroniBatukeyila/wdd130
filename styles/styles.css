@@ -2,6 +2,21 @@ main {
     max-width: 840px;
 }
 
+nav {
+    background-color: #333;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 3px;
+}
+
+h1 {
+    color: #333;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -20,6 +35,10 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 30px gray;
+
 }
 
 p {
