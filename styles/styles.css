@@ -1,9 +1,27 @@
+* {
+    margin: 5px;
+    /*did modify it (supposed to be 0)*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Class selector*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #525151;
+    color: aliceblue;
+}
+
 main {
     max-width: 840px;
+
 }
 
 nav {
-    background-color: #333;
+    background-color: #777676;
     padding: 5px;
 }
 
@@ -19,12 +37,25 @@ h1 {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
+}
+
+/*my line of code*/
+li a {
+    color: black;
+}
+
+/*another one */
+
+h2 {
+    color: black;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
 
 aside img {
@@ -37,7 +68,8 @@ main img {
     height: auto;
     padding: 5px;
     border: 1px solid black;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(182, 181, 181);
+    float: right;
 
 }
 
