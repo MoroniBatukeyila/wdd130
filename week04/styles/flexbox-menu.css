@@ -18,7 +18,7 @@ nav ul {
 }
 
 nav a {
-    display: block;
+    display: flex;
     color: #fff;
     text-align: center;
     padding: 1rem;
