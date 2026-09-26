@@ -1,7 +1,6 @@
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
-    --third-color: white;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -154,6 +153,8 @@ section h2 {
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     text-align: center;
+    margin: 16px;
+    padding: 8px;
 }
 
 .figures figure {
@@ -203,11 +204,4 @@ footer p {
 .socialmedia img {
     width: 40px;
     height: 40px;
-}
-
-.figures {
-
-    margin: 16px;
-    padding: 8px;
-
 }
