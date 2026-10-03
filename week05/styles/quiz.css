@@ -1,0 +1,57 @@
+main {
+    max-width: 500px;
+    margin: 50px;
+
+    color: #000;
+    padding: 15px;
+}
+
+h1 {
+    margin: .5rem;
+}
+
+form {
+    background-color: #a19c9c;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input,
+textarea,
+select,
+button {
+    padding: 5px;
+    width: 400px;
+}
+
+button {
+    background-color: navy;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
+    border: none;
+
+}
+
+code {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.container {
+    border: none;
+    margin: 10px;
+
+}
