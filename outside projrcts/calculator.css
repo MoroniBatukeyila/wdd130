@@ -1,0 +1,53 @@
+body {
+
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+
+}
+
+.big {
+    width: 300px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container {
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.number {
+    padding: 15px;
+    border-radius: 100px;
+    background-color: yellow;
+    width: 25px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: end;
+
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}

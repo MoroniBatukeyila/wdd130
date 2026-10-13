@@ -1,0 +1,50 @@
+body {
+
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 300px;
+    height: 310px;
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: darkgray;
+    caret-color: white;
+    /*makes the cursor appear in white*/
+}
+
+button {
+    margin-top: 20px;
+    border: none;
+    background-color: darkgrey;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+input:focus {
+    /*helps t remove the border when the user click on the input area*/
+    border: none;
+    outline: none;
+    border-bottom: 3px solid white;
+
+}
+
+.button {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}

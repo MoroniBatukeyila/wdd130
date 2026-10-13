@@ -245,10 +245,10 @@ body:has(.home-intro) .hero h1 {
     top: 175px;
     left: 9%;
     z-index: 1;
-    width: 520px;
+    width: 450px;
     max-width: 82%;
     padding: 0 28px 20px;
-    text-align: left;
+    text-align: center;
     background-color: rgba(15, 57, 70, 0.9);
     color: white;
 }
@@ -266,6 +266,7 @@ body:has(.home-intro) .hero h1 {
 .home-intro p {
     line-height: 1.5;
     margin: 10px 0;
+
 }
 
 /* ==============================
@@ -700,13 +701,16 @@ iframe {
 .company {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
 }
 
 form {
+    padding: 10px;
     display: grid;
     grid-template-columns: 180px 1fr;
     margin-left: 10px;
     gap: 10px;
+
 }
 
 input {
@@ -718,7 +722,6 @@ input {
 textarea {
     padding: 20px;
     width: 400px;
-    max-width: 100%;
     margin-bottom: 10px;
     border: 2px solid rgb(48, 48, 48);
 }
@@ -730,15 +733,18 @@ textarea {
 
 button {
     width: 400px;
-    max-width: 100%;
     padding: 10px;
     border-radius: 3px;
     background-color: rgb(38, 70, 83);
     color: #ffffff;
     font-weight: bold;
-    border: 2px solid rgb(48, 48, 48);
+    border: none;
     margin-top: 3px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-color);
 }
 
 .check {
@@ -748,6 +754,7 @@ button {
 }
 
 .employees {
+    margin: 20px;
     border: 2px solid rgb(48, 70, 83);
     padding: 10px;
     margin-bottom: 10px;
